@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Tiger's Choice",
+    "slug": "tigers-choice",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#C25500"
+    },
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zhzhao.tigerschoice",
+      "buildNumber": "1",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.zhzhao.tigerschoice"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "scheme": "tigerschoice",
+    "plugins": [
+      "expo-router",
+      [
+        "react-native-google-mobile-ads/app.plugin.js",
+        {
+          "androidAppId": "ca-app-pub-7274464058205519~2580349301",
+          "iosAppId": "ca-app-pub-7274464058205519~9576736567",
+          "userTrackingUsageDescription": "This identifier will be used to deliver personalized ads to you."
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35
+          },
+          "ios": {
+            "deploymentTarget": "16.0"
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "8566ce22-7f50-4bc8-a34c-78b5805b504d"
+      }
+    }
+  }
+}
