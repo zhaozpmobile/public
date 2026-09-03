@@ -1,77 +1,58 @@
 # Privacy Policy for Tiger's Choice
 
-Effective date: 2026-06-20
+**Effective date:** September 3, 2026
 
-Tiger's Choice ("we", "our", or "us") respects your privacy. This Privacy Policy explains how the Tiger's Choice mobile app handles information.
+Tiger's Choice ("the app") is a single-player and local pass-and-play game.
+This policy explains what data the app does — and does not — collect.
 
 ## Summary
 
-- We do not require account registration.
-- We do not sell personal information.
-- We do not collect personal information for advertising.
-- Game progress and stats are stored locally on your device.
+**Tiger's Choice does not collect, store, or transmit any personal data.**
+There is no account creation, no sign-in, no analytics, no advertising,
+and no network connection of any kind. Everything the app needs to run
+stays on your device.
 
-## Information We Collect
+## What the app stores, and where
 
-Tiger's Choice is designed to work without collecting personal data from users.
+The app saves a small amount of data locally on your device, using Apple's
+standard `UserDefaults` storage:
 
-Based on the current app implementation, we do not intentionally collect or store personal identifiers such as:
+- **Settings** — your chosen chant language, leaflet count, chant speed,
+  and haptics/voice toggles.
+- **Stats** — your local win/loss counts.
 
-- Name
-- Email address
-- Phone number
-- Government ID
-- Precise location
-- Contacts
-- Photos or media files
+This data:
+- Never leaves your device.
+- Is never sent to us, to Apple, or to any third party.
+- Is not linked to your identity, device identifier, or any account.
+- Is deleted automatically if you delete the app.
 
-## Local Storage on Your Device
+## Voice / text-to-speech
 
-The app stores game-related data locally on your device to support features such as:
+If you enable the "speak the chant aloud" setting, the app uses your
+device's built-in text-to-speech engine (Apple's `AVSpeechSynthesizer`) to
+read the chant. This processing happens entirely on-device. No audio or
+text is recorded, saved, or transmitted anywhere.
 
-- Game settings
-- Game statistics
-- Local gameplay state
+## Third parties
 
-This local data is not uploaded to our servers by the app.
+The app does not integrate any third-party SDKs, analytics tools,
+advertising networks, or crash reporters. We do not share data with third
+parties because we do not collect any to share.
 
-## Network and Third-Party Services
+## Children's privacy
 
-Tiger's Choice does not include in-app advertising or user analytics SDKs in the current release.
+Tiger's Choice does not knowingly collect any personal information from
+anyone, including children. Because the app collects no data at all, it
+requires no age gate or parental consent flow.
 
-The app may rely on platform or distribution services (for example, Google Play or Apple App Store) for app delivery and updates. Those services may process data under their own privacy terms.
+## Changes to this policy
 
-## Children's Privacy
-
-Tiger's Choice is a casual game and is not directed to children under 13 specifically. We do not knowingly collect personal information from children.
-
-If you believe a child has provided personal information through the app, contact us and we will address the request promptly.
-
-## Data Retention
-
-Because gameplay data is stored locally, retention is controlled by the user device. Uninstalling the app may delete locally stored app data, depending on device settings and platform behavior.
-
-## Your Choices and Rights
-
-You may:
-
-- Stop using the app at any time.
-- Remove local app data by uninstalling the app or clearing app storage in your device settings.
-- Contact us with privacy-related requests.
-
-## Changes to This Privacy Policy
-
-We may update this Privacy Policy from time to time. When we do, we will update the "Effective date" above.
+If this policy ever changes — for example, if a future version of the app
+adds a feature that involves data collection — this page will be updated
+and the "Effective date" above will reflect the change.
 
 ## Contact
 
-If you have questions about this Privacy Policy, contact:
-
-- Developer: Tiger's Choice
-- Email: zhao_zp@yahoo.com
-
----
-
-## Google Play Data Safety Alignment Note
-
-This policy reflects the app's current implementation at release time. If app features change (for example: analytics, ads, accounts, cloud sync, or additional permissions), both this Privacy Policy and your Google Play Data safety form should be updated before release.
+Questions about this policy can be sent to:
+**[your email address here]**
